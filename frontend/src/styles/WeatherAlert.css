@@ -1,0 +1,14 @@
+.weather-alert{
+    border: none;
+    margin-left:20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    background-color: #d9d9d9;
+    background-position: cover;
+    background: linear-gradient(45deg, #DCF8C6, #A3E4D7, #9deae5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    color: black;
+    text-align: center;
+}

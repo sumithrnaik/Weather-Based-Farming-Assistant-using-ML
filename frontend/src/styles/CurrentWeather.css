@@ -1,0 +1,155 @@
+.current-weather{
+    border: none;
+    margin-left:20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 430px;
+    height: 200px;
+    /* background: linear-gradient(45deg, #EFF6FF, #D7E3FC, #C1D3FE, #A6A9FC);  */
+    background: linear-gradient(45deg, #DCF8C6, #A3E4D7, #69D1CA);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    color:black;
+    transition: 0.3s;
+}
+
+.current-weather:hover{
+    transform: scale(1.05);
+}
+
+.weather-location{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.weather-details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top: 5px;
+    padding: 0;
+}
+.weather-details-container .weather-condition {
+    margin: 0; 
+    padding: 0;
+    font-size: 14px;
+    color:#6B7280;
+}
+.weather-details-container .temp{
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+    font-weight: bold;
+}
+.weather-details{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+.mid-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap:70px;
+}
+.feelslike{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.feelslike .feelslike-details{
+    margin: 0;
+    padding: 0;
+}
+.feelslike p{
+    margin: 0;
+}
+.feelslike .f-text{
+    color: #6B7280;
+    font-size: 12px;
+}
+.feelslike .f-temp{
+    font-weight: bold;
+    font-size:15px;
+}
+.feelslike .f-icon{
+    margin-top: 4px;
+    margin-right:2px;
+}
+.humidity{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.humidity .humidity-details{
+    margin: 0;
+    padding: 0;
+}
+.humidity p{
+    margin: 0;
+}
+.humidity .h-text{
+    color: #6B7280;
+    font-size: 10px;
+}
+.humidity .h-percentage{
+    font-weight: bold;
+    font-size:15px;
+}
+.humidity-icon{
+    margin: 4px;
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap:60px;
+}
+.wind{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.wind .wind-details{
+    margin: 0;
+    padding: 0;
+}
+.wind p{
+    margin: 0;
+}
+.wind .w-text{
+    color: #6B7280;
+    font-size: 10px;
+}
+.wind .w-kph{
+    font-weight: bold;
+    font-size:15px;
+}
+.wind-icon{
+    margin: 4px;
+}
+.pressure{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.pressure .pressure-details{
+    margin: 0;
+    padding: 0;
+}
+.pressure p{
+    margin: 0;
+    font-size:15px;
+}
+.pressure .p-text{
+    color: #6B7280;
+    font-size: 10px;
+}
+.pressure .p-hPa{
+    font-weight: bold;
+    font-size:15px;
+}
+.pressure-icon{
+    margin:4px;
+}

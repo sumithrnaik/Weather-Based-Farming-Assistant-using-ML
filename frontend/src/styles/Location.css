@@ -1,0 +1,32 @@
+.location{
+    position: relative;
+    width:300px;
+    transition: 0.3s;
+}
+
+.location:hover{
+    transform: scale(1.05);
+}
+
+.search-icon{
+    position: absolute;
+    right: 25px;  
+    top: 55%;
+    transform: translateY(-52%);
+    color: #666;
+    font-size: 16px; 
+}
+
+.location-input{
+    border: none;
+    outline: none;
+    margin-left:20px;
+    margin-top: 8px;
+    padding-left:20px;
+    border-radius: 50px;
+    font-weight: bolder;
+    width: 250px;
+    height: 30px;
+    background-color: #dfdfdf;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}

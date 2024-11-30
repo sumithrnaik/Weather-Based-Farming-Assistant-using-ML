@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+    /* background-image: linear-gradient(to bottom right,#7FE1A3,#3B3368); */
+}
+.location-container{
+    display: flex;
+    padding: 10px 20px;
+    margin: 0;
+}
+.top-container{
+    display: flex;
+    padding: 10px 20px;
+    margin: 0;
+    gap: 10px;
+}
+.weather-container{
+    display: flex;
+    padding: 15px 20px;
+    margin: 0;
+    gap : 10px;
+}
+.crop-container{
+    display: flex;
+    padding: 15px 20px;
+    margin-bottom: 60px;
+    gap: 10px;
+}

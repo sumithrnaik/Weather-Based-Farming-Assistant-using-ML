@@ -1,0 +1,88 @@
+.forecast-container {
+    margin-left: 20px;     
+    padding: 10px;     
+    border-radius: 10px;     
+    width: 950px;     
+    height: 100%; 
+    max-height: 300px; 
+    background: linear-gradient(45deg, #DCF8C6, #A3E4D7, #69D1CA);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;     
+    color: black;     
+    text-align: center;   
+    overflow: hidden; 
+  }
+  
+  .forecast-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-card {
+    flex: 1;
+    max-width: 80px;
+    min-width: 110px;
+    margin-bottom: 4px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color:#D7E3FC;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .forecast-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .day {
+    font-size: small;
+    font-weight:bold;
+    margin-bottom: 0;
+    color: #6B7280;
+  }
+  
+  .icon {
+    font-size: small;
+    margin: 0;
+  }
+  
+  .temp {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .additional-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 7px;
+  }
+  
+  .info-item {
+    font-size: smaller;
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .info-text{
+    font-size: small;
+    color: #6B7280;
+  }
+
+  .small-icon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  
