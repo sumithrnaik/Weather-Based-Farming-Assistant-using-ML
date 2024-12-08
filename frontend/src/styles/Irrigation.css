@@ -1,12 +1,60 @@
-.irrigation{
-    border: none;
-    margin-left:20px;
-    padding: 10px;
-    border-radius: 10px;
-    width: 420px;
-    height: 200px;
-    background: linear-gradient(45deg, #DCF8C6, #A3E4D7, #69D1CA);
-    background-color: #d9d9d9;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-    text-align: center;
+.irrigation {
+  border: none;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 440px;
+  height: 200px;
+  background: linear-gradient(45deg, #dcf8c6, #a3e4d7, #69d1ca);
+  background-color: #d9d9d9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.irrigation:hover {
+  transform: scale(1.05);
+}
+
+.irrigation h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.irrigation .bt-line {
+  color: gray;
+}
+
+.irrigation p {
+  margin: 10px 0;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.irrigation .error {
+  color: #e74c3c;
+}
+
+.irrigation .loading {
+  color: #7f8c8d;
+}
+
+.gauge-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.gauge {
+  width: 100px; 
+  text-align: center;
+}
+
+.gauge p {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #2c3e50;
 }

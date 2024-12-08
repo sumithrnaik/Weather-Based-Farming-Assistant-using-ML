@@ -4,7 +4,7 @@ import Location from '../Components/Location'
 import WeatherAlert from '../Components/WeatherAlert'
 import SoilCondition from '../Components/SoilCondition'
 import CurrentWeather from '../Components/CurrentWeather'
-import CropRecommendation from '../Components/Croprecommendation'
+import CropRecommendation from '../Components/CropRecommendation'
 import Forecast from '../Components/Forecast'
 import MarketPrice from '../Components/MarketPrice'
 import Irrigation from '../Components/Irrigation'
@@ -20,16 +20,17 @@ function Dashboard() {
       </div>
       <div className='top-container'>
       <CurrentWeather location={location} />
-      <Forecast/>
+      <Forecast location={location}/>
       </div>
+      <div className='bottom-container'>
       < div className='weather-container'>
       <SoilCondition location={location}/>
-      <Irrigation/>
-      <CropRecommendation/>
+      <Irrigation location={location}/>
+      <MarketPrice location={location}/>
       </div>
       <div className='crop-container'>
-      <MarketPrice/>
-      <WeatherAlert/>
+      <CropRecommendation location={location}/>
+      </div>
       </div>
     </>
   )

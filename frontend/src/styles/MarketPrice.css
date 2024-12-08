@@ -1,12 +1,27 @@
-.market-price{
-    border: none;
-    margin-left:20px;
-    padding: 10px;
-    border-radius: 10px;
-    width: 900px;
-    height: 200px;
-    background: linear-gradient(45deg, #DCF8C6, #A3E4D7, #69D1CA);
-    background-color: #d9d9d9;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-    text-align: center;
+.market-price {
+  border: none;
+  margin: 0;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 940px;
+  height: 310px;
+  background: linear-gradient(45deg, #dcf8c6, #a3e4d7, #69d1ca);
+  background-color: #d9d9d9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  text-align: center;
+}
+
+.market-price .marketprice-title {
+  margin-top: 5px;
+  font-size: 1.3em;
+}
+
+.market-price .graph {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.market-price .price-details p {
+  margin-bottom: 25px;
 }

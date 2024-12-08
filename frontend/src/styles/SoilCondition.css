@@ -1,132 +1,131 @@
 .soil-condition {
-    border: none;
-    margin-left: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    width: 450px;
-    height: 200px;
-    background: linear-gradient(45deg, #DCF8C6, #A3E4D7, #69D1CA);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
-    color: black;
-    justify-content: center;
-    transition: 0.3s;
-  }
-  
-  .soil-condition:hover{
-    transform: scale(1.05);
-  }
+  border: none;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 440px;
+  height: 200px;
+  background: linear-gradient(45deg, #dcf8c6, #a3e4d7, #69d1ca);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  color: black;
+  justify-content: center;
+  transition: 0.3s;
+}
 
-  .soil-title {
-    text-align: center;
-  }
-  
-  .soil-title h4 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.2rem;
-  }
-  
-  .separation-line {
-    color:gray;
-  }
-  
-  .soil-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  
-  .nitrogen-phosphorus{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap:8px;
-    font-size: small;
-    margin-bottom: 10px;
-  }
+.soil-condition:hover {
+  transform: scale(1.05);
+}
 
-  .nitrogen{
-    display: flex;
-    gap:10px;
-  }
+.soil-title {
+  text-align: center;
+}
 
-  .nitrogen p{
-    margin: 0;
-  }
+.soil-title h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
 
-  .phosphorus{
-    display: flex;
-    gap:10px;
-  }
+.separation-line {
+  color: gray;
+}
 
-  .phosphorus p{
-   margin: 0;
-  }
+.soil-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  .metric-info p{
-    margin: 0;
-    padding: 0;
-  }
-  
-  .pottasium-ph{
-    display: flex;
-    justify-content: space-evenly;
-    gap:4px;
-    font-size: small;
-  }
+.nitrogen-phosphorus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 8px;
+  font-size: small;
+  margin-bottom: 10px;
+}
 
-  .pottasium{
-    display: flex;
-    margin-right:8px;
-    gap: 10px;
-  }
+.nitrogen {
+  display: flex;
+  gap: 10px;
+}
 
-  .pottasium p{
-    margin: 0;
-   }
+.nitrogen p {
+  margin: 0;
+}
 
-   .ph{
-    display: flex;
-    margin-right:30px ;
-    gap: 10px;
-   }
+.phosphorus {
+  display: flex;
+  gap: 10px;
+}
 
-   .ph p{
-    margin: 0;
-   }
-  
-  .moisture-container{
-    margin-bottom:10px;
-    font-size: small;
-  }
+.phosphorus p {
+  margin: 0;
+}
 
-  .moisture{
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-  }
+.metric-info p {
+  margin: 0;
+  padding: 0;
+}
 
-  .moisture p{
-    margin: 0;
-  }
+.pottasium-ph {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4px;
+  font-size: small;
+}
 
-  .moisture-label{
-    font-size: 16px;
-    color: #6B7280;
-  }
+.pottasium {
+  display: flex;
+  margin-right: 8px;
+  gap: 10px;
+}
 
-  .moisture-metrics{
-    font-weight: bold;
-  }
+.pottasium p {
+  margin: 0;
+}
 
-  .ele-label{
-    color: #6B7280;
-    font-size: smaller;
-  }
+.ph {
+  display: flex;
+  margin-right: 30px;
+  gap: 10px;
+}
 
-  .ele-metrics{
-    font-weight: bold;
-    font-size: 13px;
-  }
-  
+.ph p {
+  margin: 0;
+}
+
+.moisture-container {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.moisture {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.moisture p {
+  margin: 0;
+}
+
+.moisture-label {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.moisture-metrics {
+  font-weight: bold;
+}
+
+.ele-label {
+  color: #6b7280;
+  font-size: smaller;
+}
+
+.ele-metrics {
+  font-weight: bold;
+  font-size: 13px;
+}
