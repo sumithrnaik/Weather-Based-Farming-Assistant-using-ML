@@ -103,24 +103,6 @@ def get_current_data(request,location):
     except Exception as e:
         return JsonResponse({'error': str(e)}, status=500)
 
-
-def get_forecast_data(request, location):
-    api_key = '91b377d246d044a39d84a9c4ffc4bd92'
-    url = f'https://api.weatherbit.io/v2.0/forecast/daily?city={location}&days=7&key={api_key}'
-
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-
-        data = response.json()
-        forecast = data.get('data', [])
-
-        return JsonResponse({'forecast': forecast}, safe=False)
-
-    except requests.exceptions.HTTPError as http_err:
-        return JsonResponse({'error': f'HTTP error occurred: {str(http_err)}'}, status=response.status_code)
-    except Exception as e:
-        return JsonResponse({'error': str(e)}, status=500)
     
 def get_elevation_data(latitude,longitude):
     url = f"https://api.open-elevation.com/api/v1/lookup?locations={latitude}',{longitude}'"
