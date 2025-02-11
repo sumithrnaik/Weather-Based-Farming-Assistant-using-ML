@@ -77,7 +77,11 @@ def get_current_data(request,location):
         latitude=data['location']['lat']
         longitude=data['location']['lon']
 
+        print(data)
+
         elevation=get_elevation_data(latitude,longitude)
+
+        print(elevation)
 
         geo_data=geo_prediction(latitude,longitude,elevation)
         
@@ -90,6 +94,7 @@ def get_current_data(request,location):
         inflation_rate=get_inflation_rate(crop)
 
         marketprice=get_market_price(data,crop,inflation_rate,'2000-01-01')
+
 
         return JsonResponse({'weather_data':data, 
                             'soil_data': soil_data, 
@@ -105,7 +110,7 @@ def get_current_data(request,location):
 
     
 def get_elevation_data(latitude,longitude):
-    url = f"https://api.open-elevation.com/api/v1/lookup?locations={latitude}',{longitude}'"
+    url = f"https://api.open-elevation.com/api/v1/lookup?locations={latitude}',{longitude}"
 
     try:
         response = requests.get(url)

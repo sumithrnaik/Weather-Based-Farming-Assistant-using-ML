@@ -1,20 +1,21 @@
 import '../styles/Location.css';
 
-function Location({setLocation}){
-
-    const handleLocationChange = (e) => {
-        setLocation(e.target.value);
+function Location({ setLocation }) {
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            setLocation(e.target.value);
+        }
     };
 
-    return(
+    return (
         <div className='location'>
-        <input 
+            <input 
                 type="text" 
                 placeholder="Select for location" 
                 className='location-input'
-                onChange={handleLocationChange}
-            ></input>
-            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                onKeyDown={handleKeyDown}
+            />
+            <i className="fa-solid fa-magnifying-glass search-icon"></i>
         </div>
     );
 }
