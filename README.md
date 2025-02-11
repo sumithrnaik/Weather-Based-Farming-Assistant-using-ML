@@ -1,1 +1,1 @@
-Weather Based Farming Assistant using Machine Leanring and deep learning. Naga
+Weather Based Farming Assistant using Machine Leanring and deep learning.
